@@ -20,7 +20,11 @@ import org.apache.hadoop.util.ToolRunner;
 
 import java.io.IOException;
 
-
+/**
+ * 该程序功能：
+ * 从Hbase的表中读取数据，
+ * 然后将读取的数据经过Mapreduce程序写入Hbase的另一张表
+ */
 public class HbaseMR {
     public static void main(String[] args) throws Exception {
 
